@@ -1,6 +1,9 @@
 'use client';
 import { useState, useEffect } from 'react';
 import PromptCard from './PromptCard';
+
+
+
 const Feed = () => {
   const [searchText,setsearchText] =useState('');
 
