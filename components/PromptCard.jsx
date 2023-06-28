@@ -5,7 +5,7 @@ import Image from 'next/image';
 import {useSession} from 'next-auth/react';
 import {usePathname, useRouter} from 'next/navigation';
 
-
+///This is prompt Card section
 
 const PromptCard = ({post,handleTagClick,handleEdit, handleDelete}) => {
   console.log(post); 
@@ -42,7 +42,7 @@ const PromptCard = ({post,handleTagClick,handleEdit, handleDelete}) => {
           />
 
         </div>
-
+    
 
       </div>
       <p className="my-4 font-satoshi text-sm text-sm text-gray-700">
